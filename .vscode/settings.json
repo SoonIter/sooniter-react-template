@@ -3,8 +3,10 @@
     "ahooks",
     "Antd",
     "attributify",
+    "degit",
     "douyinfe",
     "iconify",
+    "pnpx",
     "svgr",
     "unocss",
     "unplugin"
