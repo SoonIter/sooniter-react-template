@@ -15,8 +15,10 @@
     ],
     "eslint-comments/no-unlimited-disable": "off",
     "import/no-named-as-default": "off",
-    "react/jsx-no-undef":"off",
-    "import/order":"off"
+    "react/jsx-no-undef": "off",
+    "import/order": "off"
   },
-  
+  "exclude": [
+    "./src/types"
+  ]
 }
