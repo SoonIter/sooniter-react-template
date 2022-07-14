@@ -1,5 +1,5 @@
 {
-  "name": "sooniter-lib-template",
+  "name": "sooniter-react-template",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.5.0",
