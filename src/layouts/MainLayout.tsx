@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const MainLayout = () => {
   return (
@@ -10,7 +10,7 @@ const MainLayout = () => {
       <Outlet />
       <h1>Main Layout Footer</h1>
     </div>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;

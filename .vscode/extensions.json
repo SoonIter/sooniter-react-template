@@ -1,6 +1,3 @@
 {
-  "recommendations": [
-    "streetsidesoftware.code-spell-checker",
-    "lys.vscode-vitest-run-it"
-  ]
+  "recommendations": ["streetsidesoftware.code-spell-checker", "lys.vscode-vitest-run-it"]
 }

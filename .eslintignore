@@ -1,9 +1,0 @@
-dist
-node_modules
-src/types
-*.svelte
-*.snap
-*.d.ts
-coverage
-!.vitepress
-test/core/src/self

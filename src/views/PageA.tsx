@@ -9,16 +9,10 @@ const PageA = () => {
         <div className="c-amber">hello</div>
       </main>
       <ul>
-        {[13, 14, 15].map(n => (
+        {[13, 14, 15].map((n) => (
           <li key={n}>
             <nav>
-              <Link
-                to={`/detail/${new Date().getTime()}?q=${
-                  new Date().getTime() % n
-                }`}
-              >
-                Detail-{n}
-              </Link>
+              <Link to={`/detail/${new Date().getTime()}?q=${new Date().getTime() % n}`}>Detail-{n}</Link>
             </nav>
           </li>
         ))}
