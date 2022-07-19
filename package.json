@@ -1,8 +1,22 @@
 {
-  "name": "sooniter-react-template",
+  "name": "[name]",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.5.0",
+  "description": "自用的库模版",
+  "author": {
+    "name": "SoonIter",
+    "email": "1730214056@qq.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "[name]"
+  ],
+  "repository": "https://github.com/SoonIter/[name]",
+  "bugs": {
+    "url": "https://github.com/SoonIter/[name]/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
