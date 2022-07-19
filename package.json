@@ -28,6 +28,7 @@
   "dependencies": {
     "@douyinfe/semi-ui": "^2.14.0",
     "ahooks": "^3.5.2",
+    "foca": "^1.1.0",
     "i18next": "^21.8.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

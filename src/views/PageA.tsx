@@ -1,13 +1,25 @@
+import { Button } from '@douyinfe/semi-ui';
 import React from 'react';
+import { useUsersModel, userModel } from '../store/useUsers';
+import { Users } from './Users';
+
 
 const PageA = () => {
   return (
     <div>
-      <main>
-        <h2>Welcome to the homepage!</h2>
-        <p>You can do this, I believe in you.</p>
-        <div className="c-amber">hello</div>
-      </main>
+     
+      <Button
+        onClick={useCallback(() => {
+          userModel.addUser({
+            id: Math.random(),
+            name: 'User' + userModel.state.length,
+            age: userModel.state.length,
+          });
+        }, [])}
+      >
+        添加一个成员
+      </Button>
+      <Users />
       <ul>
         {[13, 14, 15].map((n) => (
           <li key={n}>
