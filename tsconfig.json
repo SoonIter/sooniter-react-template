@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
     "allowJs": false,
     "skipLibCheck": false,
     "esModuleInterop": false,
@@ -14,7 +18,12 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "types": ["unplugin-icons/types/react"]
+    "types": [
+      "unplugin-icons/types/react",
+      "vitest/globals"
+    ]
   },
-  "include": ["./src"]
+  "include": [
+    "./src"
+  ]
 }
